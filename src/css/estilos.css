@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+/*HEADER*/
+
+header {
+  width: 100vw;
+}
+
+header label {
+  display: block;
+  width: 100%;
+  height: 2.5rem;
+  padding: 5px;
+}
+
+label {
+  border: 1px solid rgba(219, 234, 232);
+}
+
+#check {
+  display: none;
+}
+
+.icon1 {
+  width: 1.8rem;
+  transform: translate(21rem);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  transform: translate(-25rem);
+  transition: 1s ease all;
+}
+
+#check:checked ~ nav ul {
+  transform: translate(0);
+}
+
+nav li {
+  width: 100%;
+  flex-grow: 1;
+}
+
+nav li a {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 15px 20px;
+  text-decoration: none;
+  /* border: 1px solid #000; */
+}
+
+.icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 15%;
+  padding: 8px;
+  transform: translate(0, 0.9rem);
+  background: rgba(245, 246, 246, 0.5);
+  box-shadow: 0 0 5px #fff, 0 0 5px #1416;
+  transition: 0.3s ease all;
+  transition-delay: 0.3s;
+  opacity: 1;
+}
+
+.uno {
+  border: 1px solid #ff0000;
+  box-shadow: 0 0 6px #ff0000;
+}
+
+.dos {
+  border: 1px solid #11ba0f;
+  box-shadow: 0 0 6px #4dff00;
+}
+
+.tres {
+  border: 1px solid #0027ff;
+  box-shadow: 0 0 6px #0027ff;
+}
+
+h2 {
+  display: none;
+  font-size: 1rem;
+  padding: 5px;
+}
+
+/*bbox section*/
+
+section.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid #000;
+  margin: 20px auto;
+  padding: 10px 10px;
+}
+
+div.box1 {
+  width: 65vw;
+  height: 49.7vh;
+  margin: 15px auto;
+  border: 1px solid #000;
+  /* transform: translate(3.5rem); */
+}
+
+h3 {
+  display: none;
+}
+
+div.box2 {
+  width: 87vw;
+  margin: 15px auto;
+  border: 1px solid #000;
+}

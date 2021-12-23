@@ -1,0 +1,15 @@
+{
+  "name": "brisfcase",
+  "version": "1.0.0",
+  "description": "Brisfcase",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server"
+  },
+  "keywords": [],
+  "author": "jose luis gomezangarita  jlgomezangarita@gmail.com ",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
