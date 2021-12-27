@@ -28,7 +28,7 @@ label {
 
 .icon1 {
   width: 1.8rem;
-  transform: translate(21rem);
+  transform: translate(20.5rem);
 }
 
 nav ul {
@@ -90,9 +90,9 @@ h2 {
   padding: 5px;
 }
 
-/*bbox section*/
+/*BOX SECTION*/
 
-section.box {
+section.caja {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -101,7 +101,7 @@ section.box {
   padding: 10px 10px;
 }
 
-div.box1 {
+div.caja1 {
   width: 65vw;
   height: 49.7vh;
   margin: 15px auto;
@@ -113,8 +113,200 @@ h3 {
   display: none;
 }
 
-div.box2 {
+div.caja2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 87vw;
   margin: 15px auto;
   border: 1px solid #000;
+}
+
+div.box2:hover {
+  transform: translate(0, 0);
+}
+
+h1 {
+  transform: translate(0, 7rem);
+}
+
+p {
+  opacity: 0;
+}
+
+/*ASIDE*/
+
+aside.porcentaje {
+  display: flex;
+}
+
+div.degradado {
+  top: 20px;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  transform: translate();
+  box-shadow: 0 0 5px #000;
+}
+
+div.card {
+  width: 40vw;
+  height: 25vh;
+  display: flex;
+  margin: 10px;
+  flex-direction: column;
+  align-self: center;
+  background: linear-gradient(0deg #1b1b1b, #222, #1b1b1b);
+  overflow: hidden;
+  border: 1px solid #000;
+}
+
+/* div.card:hover {
+  transform: translate(0, -0.6rem);
+  box-shadow: 0 65px 25px #424242;
+} */
+
+svg {
+  position: absolute;
+  z-index: 100;
+  width: 6.3rem;
+  height: 6.3rem;
+  transform: translate(30px, 10px);
+  border-radius: 50%;
+  border: 1px solid #000;
+  box-shadow: inset 0 0 45px #000, inset 0 0 45px #000;
+  transition: 1s;
+}
+
+svg circle {
+  width: 6.3rem;
+  height: 6.3rem;
+  fill: none;
+  stroke: #000;
+  stroke-width: 10;
+  stroke-linecap: round;
+}
+
+div.card:hover svg {
+  box-shadow: inset 0 0 5px #fff;
+}
+
+h4 {
+  font-size: 0.9rem;
+  position: absolute;
+  z-index: 100;
+  opacity: 0;
+  transform: translate(85px, -30px);
+  transition: 1s;
+  transition-delay: 0.3s;
+}
+
+div.card:hover h4 {
+  transform: translate(4.1rem, -3.1rem);
+  font-size: 2.7rem;
+  opacity: 1;
+  color: #fff;
+  text-shadow: 10px 3px 10px #000;
+}
+
+h6.ilus,
+h6.java {
+  position: absolute;
+  transform: translate(4.5rem, 4.8rem);
+  font-size: 1rem;
+}
+
+h6.clip {
+  position: absolute;
+  transform: translate(4rem, 4.8rem);
+  font-size: 1rem;
+}
+
+h6.ht {
+  position: absolute;
+  transform: translate(5rem, 4.8rem);
+  font-size: 1rem;
+}
+
+h6.cs {
+  position: absolute;
+  transform: translate(6rem, 4.8rem);
+  font-size: 1rem;
+}
+
+h5 {
+  position: absolute;
+  z-index: 100;
+  transform: translate(70px, 75px);
+  color: #000;
+  font-size: 1rem;
+}
+
+div.card:nth-child(1) svg circle:nth-child(1) {
+  stroke-dasharray: calc(300 - (300 * 30) / 100);
+  stroke-width: 0;
+  transition: 1s;
+}
+
+div.card:hover:nth-child(1) svg circle:nth-child(1) {
+  stroke: #000fff;
+  stroke-width: 10;
+}
+
+div.card:nth-child(2) svg circle:nth-child(1) {
+  stroke-dasharray: calc(300 - (300 * 40) / 100);
+  stroke-width: 0;
+  transition: 1s;
+}
+
+div.card:hover:nth-child(2) svg circle:nth-child(1) {
+  stroke: #ff8000;
+  stroke-width: 10;
+}
+
+div.card:nth-child(3) svg circle:nth-child(1) {
+  stroke-dasharray: calc(440 - (440 * 80) / 120);
+  stroke-width: 0;
+  transition: 1s;
+}
+
+div.card:hover:nth-child(3) svg circle:nth-child(1) {
+  stroke: #b2aaa2;
+  stroke-width: 10;
+}
+
+div.card:nth-child(4) svg circle:nth-child(1) {
+  stroke-dasharray: calc(300 - (300 * 30) / 100);
+  stroke-width: 0;
+  transition: 1s;
+}
+
+div.card:hover:nth-child(4) svg circle:nth-child(1) {
+  stroke: #d36a01;
+  stroke-width: 10;
+}
+
+div.card:nth-child(5) svg circle:nth-child(1) {
+  stroke-dasharray: calc(300 - (300 * 45) / 100);
+  stroke-width: 0;
+  transition: 1s;
+}
+
+div.card:hover:nth-child(5) svg circle:nth-child(1) {
+  stroke: #0080ff;
+  stroke-width: 10;
+}
+
+div.card:nth-child(6) svg circle:nth-child(1) {
+  stroke-dasharray: calc(100 - (100 * 1) / 1);
+  stroke-width: 0;
+  transition: 1s;
+}
+
+div.card:hover:nth-child(6) svg circle:nth-child(1) {
+  stroke: #d70909;
+  opacity: 0.5;
+  stroke-width: 10;
 }
