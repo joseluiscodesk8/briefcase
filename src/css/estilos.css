@@ -96,9 +96,8 @@ section.caja {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border: 1px solid #000;
-  margin: 20px auto;
-  padding: 10px 10px;
+  /* border: 1px solid #000; */
+  transform: translate(0, 0.5rem);
 }
 
 div.caja1 {
@@ -138,6 +137,7 @@ p {
 
 aside.porcentaje {
   display: flex;
+  transform: translate(0, 0.5rem);
 }
 
 div.degradado {
@@ -309,4 +309,16 @@ div.card:hover:nth-child(6) svg circle:nth-child(1) {
   stroke: #d70909;
   opacity: 0.5;
   stroke-width: 10;
+}
+
+/*FOOTER*/
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.7rem;
+}
+
+.down {
+  width: 1.5rem;
 }
