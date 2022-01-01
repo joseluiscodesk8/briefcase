@@ -109,6 +109,10 @@ div.caja1 {
   /* transform: translate(3.5rem); */
 }
 
+figure img {
+  width: 100%;
+}
+
 h3 {
   display: none;
 }
