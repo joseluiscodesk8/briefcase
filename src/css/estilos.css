@@ -105,6 +105,7 @@ div.caja1 {
   width: 65vw;
   height: 49.7vh;
   margin: 15px auto;
+  overflow: hidden;
   border: 1px solid #000;
   /* transform: translate(3.5rem); */
 }
