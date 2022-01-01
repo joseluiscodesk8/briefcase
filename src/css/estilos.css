@@ -27,8 +27,9 @@ label {
 }
 
 .icon1 {
+  position: relative;
   width: 1.8rem;
-  transform: translate(1130%);
+  left: 90%;
 }
 
 nav ul {
