@@ -123,7 +123,7 @@ div.caja2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 87vw;
+  width: 300px;
   margin: 15px auto;
   border: 1px solid #000;
 }
@@ -144,7 +144,6 @@ p {
 
 aside.porcentaje {
   display: flex;
-  transform: translate(0, 0.5rem);
 }
 
 div.degradado {

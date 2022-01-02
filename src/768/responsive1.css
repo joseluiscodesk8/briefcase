@@ -1,0 +1,20 @@
+@media (min-width: 768px) {
+  .icon1 {
+    left: 95%;
+  }
+
+  section.caja {
+    flex-direction: row;
+  }
+
+  div.degradado {
+    width: 600px;
+    transform: translate(15%, 25%);
+  }
+
+  footer {
+    border: 1px solid #000;
+    position: relative;
+    margin-top: 21%;
+  }
+}
