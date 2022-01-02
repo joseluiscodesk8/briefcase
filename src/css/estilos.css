@@ -35,7 +35,7 @@ label {
 nav ul {
   list-style: none;
   display: flex;
-  transform: translate(-25rem);
+  transform: translate(-100%);
   transition: 1s ease all;
 }
 
@@ -98,19 +98,19 @@ section.caja {
   flex-direction: column;
   justify-content: center;
   /* border: 1px solid #000; */
-  transform: translate(0, 0.5rem);
+  /* transform: translate(0, 0.5rem); */
 }
 
 div.caja1 {
-  width: 65vw;
-  height: 49.7vh;
+  width: 250px;
+  height: 330px;
   margin: 15px auto;
   overflow: hidden;
   border: 1px solid #000;
   /* transform: translate(3.5rem); */
 }
 
-figure img {
+.jose {
   width: 100%;
   height: 100%;
 }
@@ -159,8 +159,8 @@ div.degradado {
 }
 
 div.card {
-  width: 40vw;
-  height: 25vh;
+  width: 150px;
+  height: 150px;
   display: flex;
   margin: 10px;
   flex-direction: column;
