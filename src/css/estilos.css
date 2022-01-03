@@ -5,6 +5,11 @@
   list-style: none;
 }
 
+body {
+  background: linear-gradient(170deg, #dbeae8, #0101, #959797, #0101, #dbeae8);
+  background-repeat: no-repeat;
+}
+
 /*HEADER*/
 
 header {
@@ -65,7 +70,7 @@ nav li a {
   transform: translate(0, 0.9rem);
   background: rgba(245, 246, 246, 0.5);
   box-shadow: 0 0 5px #fff, 0 0 5px #1416;
-  transition: 0.3s ease all;
+  transition: 1s ease all;
   transition-delay: 0.3s;
   opacity: 1;
 }
@@ -89,6 +94,7 @@ h2 {
   display: none;
   font-size: 1rem;
   padding: 5px;
+  transition: 1s ease all;
 }
 
 /*BOX SECTION*/
@@ -113,10 +119,20 @@ div.caja1 {
 .jose {
   width: 100%;
   height: 100%;
+  transition: 2s ease all;
 }
 
 h3 {
-  display: none;
+  font-size: 1.3em;
+  text-transform: capitalize;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 1px;
+  opacity: 0;
+  color: #ccc;
+  text-shadow: 0 0 0 #000;
+  transform: translate(1rem, 3rem);
+  transition: 2s;
+  transition-delay: 1s;
 }
 
 div.caja2 {
