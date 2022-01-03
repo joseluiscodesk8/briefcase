@@ -7,8 +7,12 @@
     flex-direction: row;
   }
 
+  div.caja2 {
+    width: 50vw;
+  }
+
   div.degradado {
-    width: 600px;
+    width: 80vw;
     transform: translate(15%, 25%);
   }
 
