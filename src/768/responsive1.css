@@ -12,13 +12,15 @@
   }
 
   div.degradado {
-    width: 80vw;
-    transform: translate(15%, 25%);
+    margin: 25px auto;
+    width: 580px;
+    height: 501px;
+    transform: translate();
   }
 
   footer {
     border: 1px solid #000;
     position: relative;
-    margin-top: 21%;
+    /* margin-top: 21%; */
   }
 }
