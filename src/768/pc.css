@@ -58,7 +58,7 @@
   /*BOX SECTION*/
 
   section.caja {
-    justify-content: space-around;
+    justify-content: space-evenly;
   }
 
   div.caja1 {
@@ -311,7 +311,7 @@
     stroke-width: 10;
   }
 
-  footer {
+  /* footer {
     display: flex;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     height: 2.8rem;
@@ -331,5 +331,5 @@
     opacity: 1;
     padding: 0;
     text-align: start;
-  }
+  } */
 }
