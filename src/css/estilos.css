@@ -59,7 +59,6 @@ nav li a {
   width: 100%;
   padding: 15px 20px;
   text-decoration: none;
-  /* border: 1px solid #000; */
 }
 
 .icon {
@@ -102,9 +101,6 @@ h2 {
 section.caja {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  /* border: 1px solid #000; */
-  /* transform: translate(0, 0.5rem); */
 }
 
 div.caja1 {
@@ -113,7 +109,6 @@ div.caja1 {
   margin: 15px auto;
   overflow: hidden;
   border: 1px solid #000;
-  /* transform: translate(3.5rem); */
 }
 
 .jose {
@@ -149,7 +144,7 @@ div.box2:hover {
 }
 
 h1 {
-  transform: translate(0, 7rem);
+  transform: translate(0, 105px);
 }
 
 p {
@@ -170,8 +165,6 @@ div.card {
   height: 150px;
   display: flex;
   margin: 10px;
-  /* flex-direction: column;
-  align-self: center; */
   background: linear-gradient(0deg #1b1b1b, #222, #1b1b1b);
   overflow: hidden;
   border: 1px solid #000;
@@ -181,29 +174,27 @@ div.card {
   transform: translate(0, -0.6rem);
   box-shadow: 0 65px 25px #424242;
 } */
+
 div.box {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
-  border: 1px solid #000;
+  border: 0, 1rem solid #000;
 }
 div.number {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 1px solid #000;
-  width: 100px;
-  height: 100px;
+}
+h4 {
+  transform: translate(0, -60px);
 }
 svg {
-  /* position: absolute;
-  z-index: 100; */
   width: 6.3rem;
   height: 6.3rem;
-  /* transform: translate(30px, 10px); */
   border-radius: 50%;
   border: 1px solid #000;
   box-shadow: inset 0 0 45px #000, inset 0 0 45px #000;
@@ -222,57 +213,6 @@ svg circle {
 div.card:hover svg {
   box-shadow: inset 0 0 5px #fff;
 }
-
-/* h4 {
-  font-size: 0.9rem;
-  position: absolute;
-  z-index: 100;
-  opacity: 0;
-  transform: translate(85px, -30px);
-  transition: 1s;
-  transition-delay: 0.3s;
-}
-
-div.card:hover h4 {
-  transform: translate(4.1rem, -3.1rem);
-  font-size: 2.7rem;
-  opacity: 1;
-  color: #fff;
-  text-shadow: 10px 3px 10px #000;
-}
-
-h6.ilus,
-h6.java {
-  position: absolute;
-  transform: translate(4.5rem, 4.8rem);
-  font-size: 1rem;
-}
-
-h6.clip {
-  position: absolute;
-  transform: translate(4rem, 4.8rem);
-  font-size: 1rem;
-}
-
-h6.ht {
-  position: absolute;
-  transform: translate(5rem, 4.8rem);
-  font-size: 1rem;
-}
-
-h6.cs {
-  position: absolute;
-  transform: translate(6rem, 4.8rem);
-  font-size: 1rem;
-}
-
-h5 {
-  position: absolute;
-  z-index: 100;
-  transform: translate(70px, 75px);
-  color: #000;
-  font-size: 1rem;
-} */
 
 div.card:nth-child(1) svg circle:nth-child(1) {
   stroke-dasharray: calc(300 - (300 * 30) / 100);
