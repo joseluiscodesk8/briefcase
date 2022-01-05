@@ -132,8 +132,8 @@
 
   div.degradado {
     position: relative;
-    width: 39rem;
-    transform: translate(31%);
+    width: 56vw;
+    left: 16.5%;
     box-shadow: 0 0 5px #000;
   }
 
