@@ -1,6 +1,6 @@
 @media (min-width: 768px) {
   .icon1 {
-    left: 95%;
+    left: 96%;
   }
 
   section.caja {
@@ -14,13 +14,11 @@
   div.degradado {
     margin: 25px auto;
     flex: 100;
-    width: 580px;
-    height: 501px;
-    transform: translate();
+    width: 35rem;
   }
 
   footer {
-    border: 1px solid #000;
+    box-shadow: 0 0 3px #000;
     position: relative;
     margin-top: 21%;
   }
