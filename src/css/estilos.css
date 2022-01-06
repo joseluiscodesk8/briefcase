@@ -123,9 +123,11 @@ h3 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   letter-spacing: 1px;
   font-size: 1.5rem;
-  opacity: 0;
+  opacity: 1;
   color: #ccc;
-  text-shadow: 0 0 0 #000;
+  text-align: center;
+  line-height: 3rem;
+  text-shadow: 0 1px 3px #000;
   transform: translate();
   transition: 2s;
   transition-delay: 1s;
