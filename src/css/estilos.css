@@ -116,11 +116,11 @@ div.caja1 {
   width: 100%;
   height: 100%;
   z-index: 100;
-  animation: skate 5s ease-in-out;
+  animation: foto 5s ease-in-out;
   transition: 5s ease all;
 }
 
-@keyframes skate {
+@keyframes foto {
   0% {
     transform: translate(0, 0);
   }
@@ -132,7 +132,7 @@ div.caja1 {
   }
 }
 
-@keyframes meri {
+@keyframes photo {
   0% {
     transform: translate(0, 0);
   }
@@ -209,13 +209,21 @@ div.card {
   margin: 10px;
   background: linear-gradient(0deg #1b1b1b, #222, #1b1b1b);
   overflow: hidden;
-  /* border: 1px solid #000; */
+  animation: bajar 4s infinite;
 }
 
-/* div.card:hover {
-  transform: translate(0, -0.6rem);
-  box-shadow: 0 65px 25px #424242;
-} */
+@keyframes bajar {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(0, -5%);
+    box-shadow: 0 0 10px #000;
+  }
+  100% {
+    transform: translate(0, 0%);
+  }
+}
 
 div.box {
   display: flex;
@@ -232,6 +240,7 @@ div.number {
   align-items: center;
 }
 h4 {
+  opacity: 0;
   transform: translate(0, -60px);
 }
 
@@ -265,20 +274,10 @@ div.card:nth-child(1) svg circle:nth-child(1) {
   transition: 1s;
 }
 
-div.card:hover:nth-child(1) svg circle:nth-child(1) {
-  stroke: #000fff;
-  stroke-width: 10;
-}
-
 div.card:nth-child(2) svg circle:nth-child(1) {
   stroke-dasharray: calc(300 - (300 * 40) / 100);
   stroke-width: 0;
   transition: 1s;
-}
-
-div.card:hover:nth-child(2) svg circle:nth-child(1) {
-  stroke: #ff8000;
-  stroke-width: 10;
 }
 
 div.card:nth-child(3) svg circle:nth-child(1) {
@@ -287,20 +286,10 @@ div.card:nth-child(3) svg circle:nth-child(1) {
   transition: 1s;
 }
 
-div.card:hover:nth-child(3) svg circle:nth-child(1) {
-  stroke: #b2aaa2;
-  stroke-width: 10;
-}
-
 div.card:nth-child(4) svg circle:nth-child(1) {
   stroke-dasharray: calc(300 - (300 * 30) / 100);
   stroke-width: 0;
   transition: 1s;
-}
-
-div.card:hover:nth-child(4) svg circle:nth-child(1) {
-  stroke: #d36a01;
-  stroke-width: 10;
 }
 
 div.card:nth-child(5) svg circle:nth-child(1) {
@@ -309,21 +298,10 @@ div.card:nth-child(5) svg circle:nth-child(1) {
   transition: 1s;
 }
 
-div.card:hover:nth-child(5) svg circle:nth-child(1) {
-  stroke: #0080ff;
-  stroke-width: 10;
-}
-
 div.card:nth-child(6) svg circle:nth-child(1) {
   stroke-dasharray: calc(100 - (100 * 1) / 1);
   stroke-width: 0;
   transition: 1s;
-}
-
-div.card:hover:nth-child(6) svg circle:nth-child(1) {
-  stroke: #d70909;
-  opacity: 0.5;
-  stroke-width: 10;
 }
 
 /*FOOTER*/

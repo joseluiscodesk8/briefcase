@@ -183,6 +183,36 @@
     opacity: 0;
   }
 
+  div.card:hover:nth-child(1) svg circle:nth-child(1) {
+    stroke: #000fff;
+    stroke-width: 10;
+  }
+
+  div.card:hover:nth-child(2) svg circle:nth-child(1) {
+    stroke: #ff8000;
+    stroke-width: 10;
+  }
+
+  div.card:hover:nth-child(3) svg circle:nth-child(1) {
+    stroke: #b2aaa2;
+    stroke-width: 10;
+  }
+
+  div.card:hover:nth-child(4) svg circle:nth-child(1) {
+    stroke: #d36a01;
+    stroke-width: 10;
+  }
+
+  div.card:hover:nth-child(5) svg circle:nth-child(1) {
+    stroke: #0080ff;
+    stroke-width: 10;
+  }
+
+  div.card:hover:nth-child(6) svg circle:nth-child(1) {
+    stroke: #d70909;
+    opacity: 0.5;
+    stroke-width: 10;
+  }
   footer {
     margin-top: 0;
   }
