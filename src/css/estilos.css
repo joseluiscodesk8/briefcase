@@ -242,6 +242,21 @@ div.number {
 h4 {
   opacity: 0;
   transform: translate(0, -60px);
+  animation: letra 4s infinite;
+}
+
+@keyframes letra {
+  0% {
+    transform: translate(0, -60px);
+  }
+  50% {
+    transform: translate(0, -75px);
+    font-size: 2rem;
+    opacity: 1;
+  }
+  100% {
+    transform: translate(0, -60px);
+  }
 }
 
 h6 {
