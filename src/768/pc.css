@@ -69,6 +69,7 @@
     width: 19rem;
     max-width: 302px;
     height: 24.5rem;
+    max-height: 390px;
     overflow: hidden;
     border: 1px solid rgba(0, 0, 0, 0.6);
     transition: 1s ease all;
@@ -98,9 +99,10 @@
     width: 56vw;
     max-width: 600px;
     height: 56vh;
+    max-height: 390px;
     border-top: 1px solid #000;
     border-bottom: 1px solid #000;
-    transition: 1s;
+    transition: 0.8s;
   }
 
   div.caja2:hover {
@@ -120,14 +122,7 @@
 
   p {
     padding: 30px;
-    text-align: center;
-    font-family: Arial Narrow Bold, sans-serif, sans-serif;
     letter-spacing: 1px;
-    text-transform: uppercase;
-    color: #000;
-    opacity: 0;
-    transition: 3s;
-    transition-delay: 0.5s;
   }
 
   div.caja2:hover > p {
@@ -136,10 +131,19 @@
 
   /*ASIDE*/
 
+  aside.porcentajes {
+    display: flex;
+    width: 100%;
+  }
+
+  div.invicible {
+    width: 19rem;
+    margin: 25px auto;
+  }
+
   div.degradado {
-    width: 600px;
-    transform: translate(calc(100% - 340px));
-    box-shadow: 0 0 5px #000;
+    max-width: 600px;
+    box-shadow: 0 0 10px #000;
   }
 
   div.card {
