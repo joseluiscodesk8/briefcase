@@ -12,6 +12,7 @@ div.contenedor {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 25px;
 }
 
 img {
@@ -28,8 +29,8 @@ img:hover {
 figure.cuadrado {
   display: flex;
   justify-content: flex-end;
-  width: 66vw;
-  height: 80vh;
+  width: 90vw;
+  height: 40vh;
   margin-top: 20px;
   background: #1416;
 }
@@ -38,50 +39,50 @@ div.cubo {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 35vw;
-  height: 55vh;
+  width: 65vw;
+  height: 30vh;
   position: absolute;
-  margin-top: 70px;
+  margin-top: 30px;
   background: rgba(0, 0, 0, 0.7);
   box-shadow: 0 0 10px #1416, 0 0 40px #1416;
   transition: 1s;
   transition-delay: 0.3s;
 }
 
-div.cubo:hover {
+/* div.cubo:hover {
   width: 66vw;
   background: rgba(0, 0, 0, 0);
   box-shadow: 0 0 0 #1416, 0 0 0 #1416;
-}
+} */
 
 p.texto {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 2em;
+  font-size: 1.2em;
   font-weight: bold;
   text-transform: capitalize;
   padding: 15px;
   color: #ffff;
   text-align: center;
-  margin-top: 6rem;
+  margin-top: 2.5rem;
   transition: 0.2s;
   transition-delay: 0.2s;
 }
 
-div.cubo:hover .icon {
+/* div.cubo:hover .icon {
   opacity: 0;
 }
 
 div.cubo:hover .texto {
   opacity: 0;
-}
+} */
 
 /*cuadrado2*/
 
 figure.cuadrado2 {
   display: flex;
   justify-content: flex-start;
-  width: 66vw;
-  height: 80vh;
+  width: 90vw;
+  height: 40vh;
   margin-top: 20px;
   background: #1416;
 }
@@ -90,10 +91,10 @@ div.cubo2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 35vw;
-  height: 55vh;
+  width: 65vw;
+  height: 30vh;
   position: absolute;
-  margin-top: 70px;
+  margin-top: 30px;
   background: rgba(0, 0, 0, 0.7);
   box-shadow: 0 0 10px #1416, 0 0 40px #1416;
   transition: 1s;
@@ -108,13 +109,13 @@ div.cubo2:hover {
 
 p.texto2 {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 2em;
+  font-size: 1.2rem;
   font-weight: bold;
   text-transform: capitalize;
   padding: 15px;
   color: #ffff;
   text-align: center;
-  margin-top: 6rem;
+  margin-top: 2.5rem;
   transition: 0.2s;
   transition-delay: 0.2s;
 }
@@ -132,8 +133,8 @@ div.cubo2:hover .texto2 {
 figure.cuadrado3 {
   display: flex;
   justify-content: flex-end;
-  width: 66vw;
-  height: 80vh;
+  width: 90vw;
+  height: 40vh;
   margin-top: 20px;
   background: #1416;
 }
@@ -142,10 +143,10 @@ div.cubo3 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 35vw;
-  height: 55vh;
+  width: 65vw;
+  height: 30vh;
   position: absolute;
-  margin-top: 70px;
+  margin-top: 30px;
   background: rgba(0, 0, 0, 0.7);
   box-shadow: 0 0 10px #1416, 0 0 40px #1416;
   transition: 1s;
@@ -160,13 +161,13 @@ div.cubo3:hover {
 
 p.texto3 {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 2em;
+  font-size: 1.2rem;
   font-weight: bold;
   text-transform: capitalize;
   padding: 15px;
   color: #ffff;
   text-align: center;
-  margin-top: 6rem;
+  margin-top: 1rem;
   transition: 0.2s;
   transition-delay: 0.2s;
 }
@@ -184,8 +185,8 @@ div.cubo3:hover .texto3 {
 figure.cuadrado4 {
   display: flex;
   justify-content: flex-start;
-  width: 66vw;
-  height: 80vh;
+  width: 90vw;
+  height: 40vh;
   margin-top: 20px;
   background: #1416;
 }
@@ -194,10 +195,10 @@ div.cubo4 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 35vw;
-  height: 55vh;
+  width: 65vw;
+  height: 30vh;
   position: absolute;
-  margin-top: 70px;
+  margin-top: 30px;
   background: rgba(0, 0, 0, 0.7);
   box-shadow: 0 0 10px #1416, 0 0 40px #1416;
   transition: 1s;
@@ -212,13 +213,13 @@ div.cubo4:hover {
 
 p.texto4 {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 2em;
+  font-size: 1.2em;
   font-weight: bold;
   text-transform: capitalize;
   padding: 15px;
   color: #ffff;
   text-align: center;
-  margin-top: 6rem;
+  margin-top: 1rem;
   transition: 0.2s;
   transition-delay: 0.2s;
 }
@@ -233,7 +234,8 @@ div.cubo4:hover .texto4 {
 
 /*footer*/
 footer {
-  transform: translate(0, 0.8rem);
+  display: flex;
+  justify-content: center;
   padding: 0.8rem;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
@@ -241,20 +243,19 @@ footer {
 img.regreso {
   width: 2.3rem;
   padding: 5px;
-  transform: translate(41rem);
   border-radius: 15%;
   transition: 1s;
 }
 
-img.regreso:hover {
+/* img.regreso:hover {
   box-shadow: 0 2px 6px #000;
-}
+} */
 
 /*responsive*/
 
-@media (max-width: 700px) {
+/* @media (max-width: 700px) { */
   /*cuadrado*/
-
+/*
   div.cuadrado {
     width: 450px;
     height: 350px;
@@ -275,7 +276,7 @@ img.regreso:hover {
   }
 
   /*cuadrado2*/
-
+/*
   div.cuadrado2 {
     width: 450px;
     height: 350px;
@@ -296,7 +297,7 @@ img.regreso:hover {
   }
 
   /*cuadrado3*/
-
+/*
   div.cuadrado3 {
     width: 450px;
     height: 350px;
@@ -317,7 +318,7 @@ img.regreso:hover {
   }
 
   /*cuadrado4*/
-
+/*
   div.cuadrado4 {
     width: 450px;
     height: 350px;
