@@ -180,6 +180,7 @@ h1 {
 
 p {
   font-size: 0.8rem;
+  padding: 5px;
   text-align: center;
   font-family: Arial Narrow Bold, sans-serif, sans-serif;
   letter-spacing: 2px;
@@ -207,6 +208,7 @@ div.card {
   height: 10rem;
   display: flex;
   margin: 10px;
+  border-radius: 5%;
   background: linear-gradient(0deg #1b1b1b, #222, #1b1b1b);
   overflow: hidden;
   animation: bajar 4s infinite;
@@ -271,21 +273,22 @@ svg {
   width: 6.3rem;
   height: 6.3rem;
   border-radius: 50%;
-  border: 1px solid #000;
-  box-shadow: inset 0 0 45px #000, inset 0 0 45px #000;
+  background: rgba(0, 0, 0, 0);
+  border: 1px solid #1416;
+  box-shadow: inset 10px 8px 16px 2px#000;
   transition: 1s;
 }
 
 svg circle {
-  width: 6.3rem;
-  height: 6.3rem;
   fill: none;
   stroke: #000;
-  stroke-width: 10;
+  opacity: 0.2;
+  stroke-width: 100%;
   stroke-linecap: round;
+  transition: 1.5s ease all;
 }
 
-div.card:nth-child(1) svg circle:nth-child(1) {
+/* div.card:nth-child(1) svg circle:nth-child(1) {
   stroke-dasharray: calc(300 - (300 * 30) / 100);
   stroke-width: 0;
   transition: 1s;
@@ -319,7 +322,7 @@ div.card:nth-child(6) svg circle:nth-child(1) {
   stroke-dasharray: calc(100 - (100 * 1) / 1);
   stroke-width: 0;
   transition: 1s;
-}
+} */
 
 /*FOOTER*/
 

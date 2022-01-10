@@ -8,18 +8,22 @@
 body {
   background: rgba(35, 42, 41, 0.1);
 }
+
+#completo {
+  width: 100%;
+  height: 88vh;
+}
+
 .container {
   display: flex;
   justify-content: center;
-  width: 30rem;
+  width: 22rem;
   font-family: "Roboto";
   margin: 30px auto 0;
   background: rgba(154, 177, 172, 0.3);
   padding: 10px 50px 50px;
   border: 1px solid #ccc;
-  animation-name: form;
-  animation-duration: 10s;
-  animation-iteration-count: infinite;
+  animation: form 5s infinite;
   box-shadow: inset 0 0 2px #000, 0 0 2px #000;
 }
 
@@ -184,7 +188,7 @@ footer {
   display: flex;
   justify-content: center;
   padding: 5px;
-  transform: translate(0, 21rem);
+  /* transform: translate(0, 600%); */
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
