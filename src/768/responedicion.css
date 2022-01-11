@@ -1,0 +1,42 @@
+@media (min-width: 768px) {
+  figure.cuadrado {
+    height: 45vh;
+  }
+  div.cubo {
+    width: 55vw;
+    margin-top: 75px;
+  }
+  p.texto {
+    font-size: 2rem;
+  }
+  figure.cuadrado2 {
+    height: 45vh;
+  }
+  div.cubo2 {
+    width: 55vw;
+    margin-top: 75px;
+  }
+  p.texto2 {
+    font-size: 2rem;
+  }
+  figure.cuadrado3 {
+    height: 45vh;
+  }
+  div.cubo3 {
+    width: 55vw;
+    margin-top: 75px;
+  }
+  p.texto3 {
+    font-size: 2rem;
+  }
+  figure.cuadrado4 {
+    height: 45vh;
+  }
+  div.cubo4 {
+    width: 55vw;
+    margin-top: 75px;
+  }
+  p.texto4 {
+    font-size: 2rem;
+  }
+}

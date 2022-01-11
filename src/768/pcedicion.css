@@ -1,0 +1,89 @@
+@media (min-width: 1109px) {
+  body {
+    max-width: 1500px;
+  }
+  figure.cuadrado {
+    width: 800px;
+    height: 600px;
+  }
+  div.cubo {
+    width: 550px;
+    height: 350px;
+    margin-top: 95px;
+  }
+  div.cubo:hover {
+    width: 800px;
+    background: rgba(0, 0, 0, 0);
+    box-shadow: 0 0 0 #1416, 0 0 0 #1416;
+  }
+  div.cubo:hover p.texto {
+    opacity: 0;
+  }
+  p.texto {
+    font-size: 2.5rem;
+    margin-top: 4rem;
+  }
+  figure.cuadrado2 {
+    width: 800px;
+    height: 600px;
+  }
+  div.cubo2 {
+    width: 550px;
+    height: 350px;
+    margin-top: 95px;
+  }
+  div.cubo2:hover {
+    width: 800px;
+    background: rgba(0, 0, 0, 0);
+    box-shadow: 0 0 0 #1416, 0 0 0 #1416;
+  }
+  div.cubo2:hover p.texto2 {
+    opacity: 0;
+  }
+  p.texto2 {
+    font-size: 2.5rem;
+    margin-top: 4rem;
+  }
+  figure.cuadrado3 {
+    width: 800px;
+    height: 600px;
+  }
+  div.cubo3 {
+    width: 550px;
+    height: 350px;
+    margin-top: 95px;
+  }
+  div.cubo3:hover {
+    width: 800px;
+    background: rgba(0, 0, 0, 0);
+    box-shadow: 0 0 0 #1416, 0 0 0 #1416;
+  }
+  div.cubo3:hover p.texto3 {
+    opacity: 0;
+  }
+  p.texto3 {
+    font-size: 2.5rem;
+    margin-top: 3rem;
+  }
+  figure.cuadrado4 {
+    width: 800px;
+    height: 600px;
+  }
+  div.cubo4 {
+    width: 550px;
+    height: 350px;
+    margin-top: 95px;
+  }
+  div.cubo4:hover {
+    width: 800px;
+    background: rgba(0, 0, 0, 0);
+    box-shadow: 0 0 0 #1416, 0 0 0 #1416;
+  }
+  div.cubo4:hover p.texto4 {
+    opacity: 0;
+  }
+  p.texto4 {
+    font-size: 2.5rem;
+    margin-top: 3rem;
+  }
+}

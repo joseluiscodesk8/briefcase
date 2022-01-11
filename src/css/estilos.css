@@ -192,10 +192,6 @@ p {
 
 /*ASIDE*/
 
-/* aside.porcentajes {
-  display: flex;
-} */
-
 div.degradado {
   display: flex;
   flex-wrap: wrap;
@@ -285,7 +281,20 @@ svg circle {
   opacity: 0.2;
   stroke-width: 100%;
   stroke-linecap: round;
+  animation: luz 4s infinite;
   transition: 1.5s ease all;
+}
+
+@keyframes luz {
+  0% {
+    stroke-width: 100%;
+  }
+  50% {
+    stroke-width: 1;
+  }
+  100% {
+    stroke-width: 100%;
+  }
 }
 
 /* div.card:nth-child(1) svg circle:nth-child(1) {
