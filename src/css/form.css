@@ -188,13 +188,14 @@ footer {
   display: flex;
   justify-content: center;
   padding: 5px;
-  /* transform: translate(0, 600%); */
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 img {
   width: 2.3rem;
   padding: 5px;
+  border-radius: 15%;
+  box-shadow: 0 5px 5px #000;
   transition: 0.8s;
 }
 
