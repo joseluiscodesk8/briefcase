@@ -11,5 +11,8 @@
   "license": "MIT",
   "devDependencies": {
     "live-server": "^1.2.1"
+  },
+  "dependencies": {
+    "eslint": "^8.7.0"
   }
 }

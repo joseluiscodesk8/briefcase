@@ -6,9 +6,9 @@ body {
 div.contenedor {
   display: flex;
   flex-direction: column;
-  width: 95vw;
-  height: 90vh;
-  padding: 2% 2%;
+  width: 100vw;
+  height: 83vh;
+  margin: 20px auto;
 }
 
 div.box {
